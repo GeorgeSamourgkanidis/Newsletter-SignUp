@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.79.0">
+  <title>Newsletter Signup</title>
+  <link rel="icon" href="images/newsletter.ico">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+<body class="text-center">
+  <main class="form-signin">
+    <!-- Πρεπει να ειναι action"/" και method="post" -->
+    <form action="/" class="form-signin" method="POST">
+      <img class="mb-4" src="images/newsletter.jpg" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Sign up to my Newsletter</h1>
+      <input type="text" name="fName" class="form-control top" placeholder="First Name" required autofocus>
+      <input type="text" name="lName" class="form-control middle" placeholder="Surname" required>
+      <input type="emai" name="email" class="form-control bottom" placeholder="Email" required>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+      <p class="mt-5 mb-3 text-muted">&copy; King George</p>
+    </form>
+  </main>
+</body>
+
+</html>
