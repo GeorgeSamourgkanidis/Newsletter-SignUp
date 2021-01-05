@@ -9,8 +9,8 @@ const parentDir = path.normalize(__dirname + "/..");
 
 // κανω configure το mailchimp
 mailchimp.setConfig({
-  apiKey: "7760d3186af85eae25a05f7e695c00e6-us7",
-  server: "us7"
+  apiKey: "something",
+  server: "something"
 });
 // Για να μπορουμε να διαβάσουμε static αρχεία css images ορίζουμε static directory
 app.use(express.static(path.normalize(__dirname + "/../public")));
